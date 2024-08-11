@@ -5,7 +5,7 @@ interface Workout {
   minutes: number;
 }
 
-interface User {
+export interface User {
   id: number;
   name: string;
   workouts: Workout[];
