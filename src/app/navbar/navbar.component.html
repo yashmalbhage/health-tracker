@@ -1,0 +1,18 @@
+<nav class="bg-blue-600 dark:bg-gray-800 text-white shadow-lg">
+    <div class="container mx-auto px-4">
+        <div class="flex justify-between items-center py-4">
+            <a routerLink="/" class="text-xl font-bold">Health Tracker</a>
+            <ul class="flex space-x-4">
+                <!-- <li><a routerLink="/" routerLinkActive="font-bold" [routerLinkActiveOptions]="{exact: true}" class="hover:text-blue-200 transition-colors">Home</a></li> -->
+                <li><a routerLink="/form" routerLinkActive="font-bold" class="hover:text-blue-200 transition-colors">Add Workout</a></li>
+                <li><a routerLink="/list" routerLinkActive="font-bold" class="hover:text-blue-200 transition-colors">Workout List</a></li>
+                <!-- <li><a routerLink="/charts" routerLinkActive="font-bold" class="hover:text-blue-200 transition-colors">Charts</a></li> -->
+            </ul>
+            <button (click)="toggleDarkMode()" class="p-2 rounded-full bg-blue-500 dark:bg-gray-700 hover:bg-blue-400 dark:hover:bg-gray-600 transition-colors">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+        </svg>
+      </button>
+        </div>
+    </div>
+</nav>

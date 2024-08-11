@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body.dark {
+    @apply bg-gray-900 text-white;
+}
+
+body.dark input,
+body.dark select,
+body.dark button {
+    @apply bg-gray-800 border-gray-700;
+}
+
+body.dark table {
+    @apply bg-gray-800 border-gray-700;
+}
+
+body.dark th,
+body.dark td {
+    @apply border-gray-700;
+}
